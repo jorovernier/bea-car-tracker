@@ -1,0 +1,34 @@
+body {
+    background-color: grey;
+}
+
+#butts-forms {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#car-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cars {
+    background-color: beige;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#cars div {
+    width: 85%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
